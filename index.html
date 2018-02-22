@@ -9,7 +9,7 @@
 
   <!-- We need to bring in the bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
 </head>
 
 <body>
@@ -45,7 +45,8 @@ body {
   margin-bottom: 10px;
 }
 .page-header {
-  margin-top: 10px;
+  padding-bottom: 0px;
+  margin-top: 0px;
 }
 .container {
   margin-top: 100px;
@@ -68,21 +69,37 @@ body {
   margin: 10px;
 }
 .navbar-header {
-    color: #fff;
-    width: 25%;
-    height: 100%;
-    text-align: center;
-    background-color: #7d88c7;
-}
-#name {
   color: #fff;
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  margin-left: 15%;
+  padding-top: 15px;
+  background-color: #7d88c7;
+  font-size: 2em;
+  font-family: 'Comfortaa';
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px #000000;
 }
+.navbar-right {
+  margin-right: 25%;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-family: 'Comfortaa';
+  text-transform: uppercase;
+  font-size: 2em;
+  border-bottom: 1px solid #eee;
+}
+
 
   </style>
   <!-- HERE'S THE STICKY NAVBAR -->
   <nav class="navbar navbar-default navbar-fixed-top">
       <div class="navbar-header">
-        <a class="navbar-brand" id="name" href="#">Jess Giampietro</a>
+        Jess Giampietro
       </div>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#">About</a></li>
