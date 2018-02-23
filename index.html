@@ -1,91 +1,69 @@
-<!-- Demo Layout for Bootstrap (with panels) -->
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+  <head>
 
-  <meta charset="UTF-8">
-  <title>Bootstrap Portfolio</title>
+    <meta charset="UTF-8">
+    <title>Bootstrap Portfolio</title>
 
-  <!-- We need to bring in the bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets copy/css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets copy/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
 
-<body>
-  <!-- HERE'S THE STICKY NAVBAR -->
+  </head>
 
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <body>
+    <!-- HERE'S THE STICKY STUPID DUMB NONRESPONSIVE NAVBAR -->
+
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="navbar-header">
         Jess Giampietro
       </div>
       <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-  </nav>
-
-
-
-
-
-
-        
-  <!-- ALL THE STUFF INSIDE THE CONTAINER -->
-
-  
-  <div class="container">
- 
-
-    <div class="row">
-      <!-- EMPTY COLUMN FOR SPACING PURPOSES -->
-      <div class="col-md-1"></div>
-      <!-- LEFT CONTENT BOX -->
-      <div class="col-md-6">
-            
-        <div class="page-header">
-          About Me
-        </div>  
-        <img src="assets copy/images/placehold.png" alt="Bio Picture" class="img-thumbnail">
-        <p>
-          After four years studying English Literature and Linguistics in the University of St Andrews in Scotland, Jess Giampietro came to the startling and sobering revelation that she had no idea what she wanted to do for the rest of her life. She returned to her hometown in Florida, where she did what could only be described as “wallow in self pity” for a while before securing a job at Universal Orlando. There, she could professionally pretend to be a witch in the Wizarding World of Harry Potter and get paid for it. She floated happily in her merchandise position for a while, slowly moving up in the company, occasionally changing locations, until she found herself in a Guest Communications position.
-        </p>
-        <p>
-          This job was easy. This job barely required thought. This job’s only challenge involved keeping herself from yelling at innocent Guests who only want complete refunds, complimentary annual passes, and complete week long free hotel stays because it rained for two hours on one day of their vacation. This job would not be her future.  
-        </p>
-        <p>
-          Eventually, Jess mustered up the courage to change careers, searching for educational programs to expand her knowledge in something she had always considered a hobby. Upon finding the UCF Coding Bootcamp program, she immediately signed up, and is now hoping to find a career in the field of coding, getting paid not only to do something she finds fun, but also to do something challenging. Also, if she doesn’t have to give free theme park tickets to angry theme-park guests, that will be a plus.  
-        </p>
-        <p>
-          Also she would like to let any instructors or T.A.’s reviewing this assignment that writing a bio about yourself is hard, and whoever decided to add this to the homework requirements should feel badly about it.  
-        </p>
+        <li class="active"><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- ALL THE STUFF INSIDE THE CONTAINER -->
     
-      </div>
-      <!-- MAIN SIDE BAR -->
-      <div class="col-md-3">
-        <div class="page-header">
-          Contact Me
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <!-- LEFT CONTENT BOX -->
+        <div class="col-md-6">
+          <div class="page-header">
+            About Me
+          </div>  
+          <img src="assets copy/images/placehold.png" alt="Bio Picture" class="img-thumbnail">
+          <p>
+            After four years studying English Literature and Linguistics in the University of St Andrews in Scotland, Jess Giampietro came to the startling and sobering revelation that she had no idea what she wanted to do for the rest of her life. She returned to her hometown in Florida, where she did what could only be described as “wallow in self pity” for a while before securing a job at Universal Orlando. There, she could professionally pretend to be a witch in the Wizarding World of Harry Potter and get paid for it. She floated happily in her merchandise position for a while, slowly moving up in the company, occasionally changing locations, until she found herself in a Guest Communications position.
+          </p>
+          <p>
+            This job was easy. This job barely required thought. This job’s only challenge involved keeping herself from yelling at innocent Guests who only want complete refunds, complimentary annual passes, and complete week long free hotel stays because it rained for two hours on one day of their vacation. This job would not be her future.  
+          </p>
+          <p>
+            Eventually, Jess mustered up the courage to change careers, searching for educational programs to expand her knowledge in something she had always considered a hobby. Upon finding the UCF Coding Bootcamp program, she immediately signed up, and is now hoping to find a career in the field of coding, getting paid not only to do something she finds fun, but also to do something challenging. Also, if she doesn’t have to give free theme park tickets to angry theme-park guests, that will be a plus.  
+          </p>
+          <p>
+            Also she would like to let any instructors or T.A.’s reviewing this assignment that writing a bio about yourself is hard, and whoever decided to add this to the homework requirements should feel badly about it.  
+          </p>
         </div>
+        <!-- MAIN SIDE BAR -->
+        <div class="col-md-3">
+          <div class="page-header">
+            Connect with Me
+          </div>
           <a href="#"><img src="assets copy/images/github.png" class="conbut" alt="Github link"></a> <a href="#"><img src="assets copy/images/linkedin.png" class="conbut" alt="LinkedIn link"></a> <a href="#"><img src="assets copy/images/stackoverflow.png" class="conbut" alt="Stackoverflow"></a>
-      </div>
+        </div>
+      </div>  
+    </div>
 
-    </div>  
-  </div>
+    <!-- The Sticky footer, which was much less annoying than the navbar -->
+    <nav class="navbar navbar-default navbar-fixed-bottom" id="footer">
+      <p class="text-center"><div id="copytext">&copy;2018: Jess Giampietro</p></div>
+    </nav>
 
-
-  </div>
-
-  <!-- HERE'S THE STICKY FOOTER -->
-  <nav class="navbar navbar-default navbar-fixed-bottom" id="footer">
-    <p class="text-center"><div id="copytext">&copy;2018: Jess Giampietro</p></div>
-  </nav>
-
-
-  </div>
-  </div>
-  </div>
-</body>
+  </body>
 
 </html>
