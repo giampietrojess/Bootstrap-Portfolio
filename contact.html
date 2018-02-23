@@ -4,6 +4,7 @@
   <head>
 
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap Portfolio</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -16,6 +17,7 @@
     <!-- HERE'S THE STICKY STUPID DUMB NONRESPONSIVE NAVBAR -->
 
     <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid"></div>
       <div class="navbar-header">
         Jess Giampietro
       </div>
@@ -24,26 +26,35 @@
         <li><a href="portfolio.html">Portfolio</a></li>
         <li class="active"><a href="contact.html">Contact</a></li>
       </ul>
+    </div>
     </nav>
     <!-- ALL THE STUFF INSIDE THE CONTAINER -->
     
     <div class="container">
-      <div class="row">
-        <div class="col-md-1"></div>
-        <!-- LEFT CONTENT BOX -->
-        <div class="col-md-6">
-            <h1>Contact Me</h1>
+        <div class="row">
+            <!-- LEFT CONTENT BOX -->
+            <div class="col-md-8">
+                <div class="panel">
+                    <h1>Contact Me</h1>
+                </div>
+            </div>
+            <!-- MAIN SIDE BAR -->
+            <div class="col-md-4">
+                <div class="panel">
+                    <h2>
+                        Connect with Me
+                    </h2>        
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="#"><img src="assets copy/images/github.png" class="conbut" alt="Github link"></a> 
+                            <a href="#"><img src="assets copy/images/linkedin.png" class="conbut" alt="LinkedIn link"></a>   
+                            <a href="#"><img src="assets copy/images/stackoverflow.png" class="conbut" alt="Stackoverflow"></a>       
+                        </div>
+                    </div>
+                </div>
+            </div>  
         </div>
-        <!-- MAIN SIDE BAR -->
-        <div class="col-md-3">
-          <h2>
-            Connect with Me
-          </h2>
-          <a href="#"><img src="assets copy/images/github.png" class="conbut" alt="Github link"></a> <a href="#"><img src="assets copy/images/linkedin.png" class="conbut" alt="LinkedIn link"></a> <a href="#"><img src="assets copy/images/stackoverflow.png" class="conbut" alt="Stackoverflow"></a>
-        </div>
-      </div>  
     </div>
-
     <!-- The Sticky footer, which was much less annoying than the navbar -->
     <nav class="navbar navbar-default navbar-fixed-bottom" id="footer">
       <p class="text-center"><div id="copytext">&copy;2018: Jess Giampietro</p></div>

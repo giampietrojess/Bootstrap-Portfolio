@@ -57,8 +57,9 @@ body {
     width: 40%;
 }
 .conbut {
-    width: 20%;
-    margin: 0px 5px 15px 5px;
+    float: left;
+    width: 27%;
+    margin: 10px;
     opacity: 1;
     transition: .5s; /* Animation */
 }
@@ -67,18 +68,14 @@ body {
     border-radius: 50%;
 }
 /* Standard column coding */
-.col-md-6{
+.panel {
     background-color: #FFF;
-    border: 2px black solid;
-    margin: 10px 20px;
-    padding: 0px 20px;
+    border: 2px black solid!important;
+    margin: 10px auto;
+    padding: 10px;
 }
-.col-md-3 {
-    background-color: #FFF;
-    border: 2px black solid;
-    margin: 10px 15px;
-    padding: 0px 5px;
-    text-align: center;
+.col {
+    margin: 0px auto;
 }
 /* Text specific coding */
 #copytext {
