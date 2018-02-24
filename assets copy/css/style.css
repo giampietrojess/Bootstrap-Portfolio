@@ -56,6 +56,31 @@ body {
     margin: 10px;
     width: 40%;
 }
+.img-responsive {
+    margin: 0px 0px 20px 0px;
+    width: 100%;
+    border: 2px black solid;
+}
+.port {
+    width: 100%;
+}
+.port:hover {
+    opacity: 0.3;
+    transition: .5s; /* Animation */
+}
+.image_label {
+    position: absolute;
+    bottom: 40px;
+    width: 91%;
+    margin: 0px auto;
+    line-height: 75px;
+    background: #657397;
+    color: #fff;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 100%;
+    letter-spacing: 1px;
+    text-align: center;
+}
 .conbut {
     float: left;
     width: 90%;
@@ -71,7 +96,7 @@ body {
 .panel {
     background-color: #FFF;
     border: 2px black solid!important;
-    margin: 10px;
+    margin: 10px 5px;
     padding: 20px;
 }
 /* Text specific coding */
